@@ -1,0 +1,44 @@
+<html>
+<body>
+    <div class="login">
+       <h1>NBA GAMES PREDICTIONS</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>NBA GAMES PREDICTIONS</legend>
+        </h1>
+        <div class="mb-3">
+            <label class="form-label">elo_i</label>
+            <input class="form-control" type="number" name="elo_i"
+                placeholder="Enter your elo_i"  />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">elo_n</label>
+            <input class="form-control" type="number" name="elo_n"
+                placeholder="elo_n"  />
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">win_equiv</label>
+            <input class="form-control" type="number" name="win_equiv"
+                placeholder="Enter your win_equiv"  />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">opp_elo_n</label>
+            <input class="form-control" type="number" name="opp_elo_n"
+                placeholder="Enter your opp_elo_n"  />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">forecast</label>
+            <input class="form-control" type="number" name="forecast"
+                placeholder="forecast"  />
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict the game" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>
