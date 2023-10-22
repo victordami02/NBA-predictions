@@ -11,5 +11,5 @@
 - Predict the outcomes and performance of this fictional team for the 2022-2023 NBA season.
 
 # Results of the trained model is in the notebook file in the repository
-I'm sorry i was not able to complete the end-to-end mlops processes because of some Personal issues.
-I completed the model building and prediction in the notebook
+- Developed a simple flask webapp for the prediction 
+- The screenshot is on the repo
