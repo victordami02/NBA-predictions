@@ -13,3 +13,5 @@
 # Results of the trained model is in the notebook file in the repository
 - Developed a simple flask webapp for the prediction 
 - The screenshot is on the repo
+# AWS Deployment url
+http://nbaprediction-env.eba-wkfmps6a.us-east-1.elasticbeanstalk.com/predictdata
